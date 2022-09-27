@@ -21,8 +21,8 @@ public class Application {
                 "angel2104");
 
         // 3. Crear statement
-        // 3.1 Statement INSERTAR
-        // 3.2 Statement ELIMINAR
+        // 3.1 Statement ELIMINAR
+        // 3.2 Statement INSERTAR
         Statement stmt = con.createStatement();
         String delete = "DELETE FROM users " + "WHERE nombre = ?";
         PreparedStatement ptstmt = con.prepareStatement(delete);
